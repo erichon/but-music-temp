@@ -14,13 +14,4 @@ basic.forever(function () {
         basic.showString("T=")
         basic.showNumber(input.temperature())
     }
-    if (input.buttonIsPressed(Button.AB)) {
-        basic.showLeds(`
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            `)
-    }
 })
